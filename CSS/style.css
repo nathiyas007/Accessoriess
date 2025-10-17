@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: linear-gradient(to right, rgb(255, 250, 251), rgb(54, 43, 46));
+  margin-bottom: 10px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+a:hover {
+ color: gold;
+}
+
+.banner-box {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.banner-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+.category {
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+}
+.category img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px 10px;
+}
+.logo h3{
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+.best-sellers {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.product-card {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.9s, box-shadow 0.3s;
+}
+.product-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+footer {
+  background: linear-gradient(to right, white, black);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+footer p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+.social-icons {
+  margin: 10px 0;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.social-icons a:hover {
+text-decoration: underline;
+}
+.product-review {
+  margin-top: 8px;
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.product-review span {
+ font-size: 20px;
+}
+
+.contact-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  border: black 1px solid;
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: rgb(93, 86, 87);
+  margin-bottom: 20px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.contact-container button {
+  width: 95%;
+  padding: 10px;
+  background-color: rgb(201, 201, 211);
+  border: none;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.contact-container button:hover {
+  transform: scale(1.05);
+ 
+}
+.category-section h3{
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}

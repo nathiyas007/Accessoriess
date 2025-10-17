@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.checkout-box {
+  background: white;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.checkout-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: gray;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+form a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  background: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+form a:hover {
+  background-color: rgb(111, 104, 104);
+}
